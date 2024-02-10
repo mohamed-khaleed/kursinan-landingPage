@@ -4,7 +4,8 @@ import NorthEastIcon from "@mui/icons-material/NorthEast";
 import Typography from "@mui/material/Typography";
 function ProductPriceCard() {
   return (
-    <Box className="dd" sx={{ height: "100%", position: "relative" }}>
+    
+    <Box className="dd" sx={{ height: "100%", position: "relative"  }}>
       <Stack
         className="ff"
         alignItems="center"
@@ -69,6 +70,8 @@ function ProductPriceCard() {
         </Box>
       </Stack>
     </Box>
+     
+    
   );
 }
 

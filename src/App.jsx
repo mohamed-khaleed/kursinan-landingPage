@@ -1,5 +1,7 @@
 
 import './App.css'
+import FooterSec from './components/FooterSec'
+
 import NavBar from './components/NavBar'
 
 import ProductPriceSection from './components/ProductPriceSection'
@@ -15,6 +17,7 @@ function App() {
        <Hero/>
        <WhyUs/>
       <ProductPriceSection/>
+      <FooterSec/>
     </>
   )
 }
