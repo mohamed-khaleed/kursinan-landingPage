@@ -35,3 +35,24 @@ body {
 .heroBg {
   background-image: url(assets/images/hero5.jpg);
 }
+.footerInfoContainer li {
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+.carousel-button-group {
+  position: absolute;
+  bottom: -80px;
+  left: 45%;
+  z-index: 50;
+}
+
+.tabs-img {
+  object-fit: cover;
+}
+
+.tab-box:hover .img-layer {
+  display: flex;
+}
+.swiper-scrollbar-drag {
+  background-color: #f2efef !important;
+}

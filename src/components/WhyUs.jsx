@@ -3,15 +3,15 @@ import Typography from "@mui/material/Typography";
 import Stack from "@mui/material/Stack";
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
-import StarIcon from '@mui/icons-material/Star';
-import VerifiedIcon from '@mui/icons-material/Verified';
-import DehazeIcon from '@mui/icons-material/Dehaze';
+import StarIcon from "@mui/icons-material/Star";
+import VerifiedIcon from "@mui/icons-material/Verified";
+import DehazeIcon from "@mui/icons-material/Dehaze";
 import Icon from "./Icon";
 function WhyUs() {
   return (
     <Box
       component="section"
-      sx={{ height: "600px", borderBottom: "1px solid #bdbbbb" }}
+      sx={{ paddingY: "50px", borderBottom: "1px solid #bdbbbb" }}
     >
       <Container sx={{ height: "100%" }}>
         <Grid container sx={{ height: "100%" }}>
@@ -65,7 +65,8 @@ function WhyUs() {
                     variant="p"
                     sx={{ fontWeight: "400", color: "#a09f9e" }}
                   >
-                   we always prioritize customer satisfaction over <br/> everything{" "}
+                    we always prioritize customer satisfaction over <br />{" "}
+                    everything{" "}
                   </Typography>
                 </Grid>
               </Stack>
@@ -100,7 +101,8 @@ function WhyUs() {
                     variant="p"
                     sx={{ fontWeight: "400", color: "#a09f9e" }}
                   >
-                   we always prioritize customer satisfaction over <br/> everything{" "}
+                    we always prioritize customer satisfaction over <br />{" "}
+                    everything{" "}
                   </Typography>
                 </Grid>
               </Stack>
@@ -117,7 +119,7 @@ function WhyUs() {
                   sx={{ display: "flex" }}
                 >
                   <Icon width="60px" height="60px" borderColor="black">
-                    <DehazeIcon  fontSize="large" />
+                    <DehazeIcon fontSize="large" />
                   </Icon>
                 </Grid>
                 <Grid item sm={10} sx={{ padding: "20px" }}>
@@ -129,13 +131,14 @@ function WhyUs() {
                       marginBottom: "10px",
                     }}
                   >
-                   Long warranty
+                    Long warranty
                   </Typography>
                   <Typography
                     variant="p"
                     sx={{ fontWeight: "400", color: "#a09f9e" }}
                   >
-                    we always prioritize customer satisfaction over <br/> everything{" "}
+                    we always prioritize customer satisfaction over <br />{" "}
+                    everything{" "}
                   </Typography>
                 </Grid>
               </Stack>

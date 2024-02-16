@@ -9,8 +9,8 @@ function ProductPriceSection() {
     <>
       <Box component="section">
         <Box component="header">
-          <Grid container sx={{ height: "150px" }}>
-            <Grid item md={6} sx={{ height: "100%" }}>
+          <Grid container sx={{ padding: "60px" }}>
+            <Grid item sm={12} md={6} sx={{ height: "100%" }}>
               <Stack
                 alignItems="center"
                 justifyContent="center"
@@ -24,7 +24,7 @@ function ProductPriceSection() {
                 </Typography>
               </Stack>
             </Grid>
-            <Grid item md={6} sx={{ height: "100%" }}>
+            <Grid item sm={12} md={6} sx={{ height: "100%" }}>
               <Stack
                 alignItems="flex-start"
                 justifyContent="center"
@@ -43,10 +43,11 @@ function ProductPriceSection() {
             </Grid>
           </Grid>
         </Box>
-        <Box component="main" sx={{ height: "900px" }}>
+        <Box component="main" sx={{ height: "60rem" }}>
           <Grid container sx={{ height: "100%" }}>
             <Grid
               item
+             
               md={6}
               sx={{ height: "50%", width: "50%" }}
               className="first"
@@ -55,6 +56,7 @@ function ProductPriceSection() {
             </Grid>
             <Grid
               item
+             
               md={6}
               sx={{ height: "50%", width: "50%" }}
               className="second"
@@ -63,6 +65,7 @@ function ProductPriceSection() {
             </Grid>
             <Grid
               item
+             
               md={6}
               sx={{ height: "50%", width: "50%" }}
               className="third"
@@ -71,6 +74,7 @@ function ProductPriceSection() {
             </Grid>
             <Grid
               item
+             
               md={6}
               sx={{ height: "50%", width: "50%" }}
               className="fourth"
